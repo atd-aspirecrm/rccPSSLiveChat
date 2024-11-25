@@ -1,15 +1,10 @@
 <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #EAAF0F;
-		font-family: "Salesforce Sans", sans-serif;
+		background-color: #005290;
+		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #EAAF0F;
-	}
-	@font-face {
-		font-family: 'Salesforce Sans';
-		src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
-		url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+		outline: 1px solid #005290;
 	}
 </style>
 
@@ -39,16 +34,16 @@
 
 		embedded_svc.init(
 			'https://rutland-cc--dev.sandbox.my.salesforce.com',
-			'https://rutland-cc--dev.sandbox.my.salesforce-sites.com/liveAgentSetupFlow',
+			'https://rutland-cc--dev.sandbox.my.site.com/myaccount',
 			gslbBaseURL,
 			'00DKG000001G4SD',
-			'CST_Chat',
+			'Chat_Team',
 			{
 				baseLiveAgentContentURL: 'https://c.la1-c1cs-ar3.salesforceliveagent.com/content',
 				deploymentId: '572KG000000PAsK',
-				buttonId: '573KG000000PAwS',
+				buttonId: '573KG000000PAwX',
 				baseLiveAgentURL: 'https://d.la1-c1cs-ar3.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'CST_Chat',
+				eswLiveAgentDevName: 'Chat_Team',
 				isOfflineSupportEnabled: true
 			}
 		);
